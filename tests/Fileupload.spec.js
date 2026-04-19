@@ -9,3 +9,5 @@ test('Multi file Upload',async({page})=>{
     const fileupload=await page.locator('#filesToUpload')
     await fileupload.setInputFiles(['UploadFiles/Git.pdf','UploadFiles/Playwright interview.pdf'])
 })
+//For removing file  pass setinputfiles  empty as
+//setinptfiles([])
