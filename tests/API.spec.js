@@ -55,4 +55,5 @@ test ('Delete User',async({request})=>{
         }
     )
     expect (response.status()).toBe(204)
+    console.log('API ')
 })
