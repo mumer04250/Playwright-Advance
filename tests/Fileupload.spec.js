@@ -11,3 +11,25 @@ test('Multi file Upload',async({page})=>{
 })
 //For removing file  pass setinputfiles  empty as
 //setinptfiles([])
+
+//////////////////////Fie Download //////////////////////////
+//we use saveas method to download file
+
+// test('File Download', async ({ page }) => {
+//   await page.goto('https://example.com');
+
+//   // download start hone ka wait
+//   const downloadPromise = page.waitForEvent('download');
+
+//   // click jo download trigger kare
+//   await page.click('text=Download');
+
+//   // download capture
+//   const download = await downloadPromise;
+
+//   // file ka naam
+//   console.log(await download.suggestedFilename());
+
+//   // file save karna
+//   await download.saveAs('downloads/' + await download.suggestedFilename());
+// });
